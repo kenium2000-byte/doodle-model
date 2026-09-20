@@ -1,0 +1,184 @@
+{
+  "felines": [
+    "cat",
+    "tiger",
+    "lion"
+  ],
+  "canines": [
+    "dog"
+  ],
+  "birds": [
+    "bird",
+    "duck",
+    "flamingo",
+    "owl",
+    "parrot",
+    "penguin",
+    "swan"
+  ],
+  "sea_creatures": [
+    "dolphin",
+    "fish",
+    "lobster",
+    "octopus",
+    "shark",
+    "whale",
+    "sea turtle"
+  ],
+  "insects": [
+    "ant",
+    "bee",
+    "butterfly",
+    "mosquito",
+    "spider"
+  ],
+  "farm_zoo_animals": [
+    "bear",
+    "camel",
+    "cow",
+    "elephant",
+    "giraffe",
+    "horse",
+    "monkey",
+    "pig",
+    "sheep",
+    "zebra"
+  ],
+  "vehicles_land": [
+    "ambulance",
+    "bicycle",
+    "bus",
+    "car",
+    "motorbike",
+    "pickup truck",
+    "police car",
+    "school bus",
+    "tractor",
+    "train",
+    "truck",
+    "van"
+  ],
+  "vehicles_air_sea": [
+    "aircraft carrier",
+    "airplane",
+    "cruise ship",
+    "helicopter",
+    "hot air balloon",
+    "sailboat",
+    "submarine",
+    "speedboat"
+  ],
+  "buildings": [
+    "barn",
+    "castle",
+    "church",
+    "hospital",
+    "house",
+    "lighthouse",
+    "skyscraper"
+  ],
+  "furniture": [
+    "bed",
+    "bench",
+    "chair",
+    "couch",
+    "table"
+  ],
+  "food_fruits_veg": [
+    "apple",
+    "banana",
+    "blackberry",
+    "blueberry",
+    "broccoli",
+    "carrot",
+    "grapes",
+    "mushroom",
+    "onion",
+    "peanut",
+    "pear",
+    "pineapple",
+    "potato",
+    "strawberry",
+    "watermelon"
+  ],
+  "food_meals_sweets": [
+    "birthday cake",
+    "bread",
+    "cookie",
+    "donut",
+    "hamburger",
+    "hot dog",
+    "ice cream",
+    "pizza",
+    "sandwich",
+    "steak"
+  ],
+  "clothing": [
+    "belt",
+    "jacket",
+    "pants",
+    "shoe",
+    "shorts",
+    "sock",
+    "sweater",
+    "t-shirt",
+    "underwear"
+  ],
+  "footwear_headwear": [
+    "crown",
+    "hat",
+    "helmet",
+    "flip flops"
+  ],
+  "tools_hardware": [
+    "anvil",
+    "axe",
+    "hammer",
+    "ladder",
+    "pliers",
+    "saw",
+    "screwdriver"
+  ],
+  "electronics_gadgets": [
+    "cell phone",
+    "computer",
+    "keyboard",
+    "laptop",
+    "radio",
+    "stereo",
+    "television"
+  ],
+  "stationery": [
+    "book",
+    "crayon",
+    "envelope",
+    "eraser",
+    "marker",
+    "paper clip",
+    "pencil",
+    "scissors"
+  ],
+  "music_sports_hobbies": [
+    "baseball",
+    "basketball",
+    "drums",
+    "guitar",
+    "harp",
+    "piano",
+    "soccer ball",
+    "tennis racquet",
+    "violin"
+  ],
+  "celestial_nature": [
+    "cloud",
+    "leaf",
+    "lightning",
+    "moon",
+    "mountain",
+    "ocean",
+    "rainbow",
+    "star",
+    "sun",
+    "tree"
+  ]
+}
