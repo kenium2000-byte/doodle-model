@@ -8,7 +8,7 @@
     "model_config": {
       "class_name": "Sequential",
       "config": {
-        "name": "sequential",
+        "name": "sequential_1",
         "trainable": true,
         "dtype": {
           "module": "keras",
@@ -25,7 +25,7 @@
               "dtype": "float32",
               "sparse": false,
               "ragged": false,
-              "name": "input_layer",
+              "name": "input_layer_1",
               "optional": false,
               "batchInputShape": [
                 null,
@@ -38,7 +38,7 @@
           {
             "class_name": "Conv2D",
             "config": {
-              "name": "conv2d",
+              "name": "conv2d_3",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -90,7 +90,7 @@
           {
             "class_name": "MaxPooling2D",
             "config": {
-              "name": "max_pooling2d",
+              "name": "max_pooling2d_3",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -115,7 +115,7 @@
           {
             "class_name": "Dropout",
             "config": {
-              "name": "dropout",
+              "name": "dropout_4",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -133,7 +133,7 @@
           {
             "class_name": "Conv2D",
             "config": {
-              "name": "conv2d_1",
+              "name": "conv2d_4",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -185,7 +185,7 @@
           {
             "class_name": "MaxPooling2D",
             "config": {
-              "name": "max_pooling2d_1",
+              "name": "max_pooling2d_4",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -210,7 +210,7 @@
           {
             "class_name": "Dropout",
             "config": {
-              "name": "dropout_1",
+              "name": "dropout_5",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -228,7 +228,7 @@
           {
             "class_name": "Conv2D",
             "config": {
-              "name": "conv2d_2",
+              "name": "conv2d_5",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -280,7 +280,7 @@
           {
             "class_name": "MaxPooling2D",
             "config": {
-              "name": "max_pooling2d_2",
+              "name": "max_pooling2d_5",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -305,7 +305,7 @@
           {
             "class_name": "Dropout",
             "config": {
-              "name": "dropout_2",
+              "name": "dropout_6",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -323,7 +323,7 @@
           {
             "class_name": "Flatten",
             "config": {
-              "name": "flatten",
+              "name": "flatten_1",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -339,7 +339,7 @@
           {
             "class_name": "Dense",
             "config": {
-              "name": "dense",
+              "name": "dense_2",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -376,7 +376,7 @@
           {
             "class_name": "Dropout",
             "config": {
-              "name": "dropout_3",
+              "name": "dropout_7",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -394,7 +394,7 @@
           {
             "class_name": "Dense",
             "config": {
-              "name": "dense_1",
+              "name": "dense_3",
               "trainable": true,
               "dtype": {
                 "module": "keras",
@@ -476,7 +476,7 @@
       ],
       "weights": [
         {
-          "name": "conv2d/kernel",
+          "name": "sequential_1/conv2d_3/kernel",
           "shape": [
             3,
             3,
@@ -486,14 +486,14 @@
           "dtype": "float32"
         },
         {
-          "name": "conv2d/bias",
+          "name": "sequential_1/conv2d_3/bias",
           "shape": [
             32
           ],
           "dtype": "float32"
         },
         {
-          "name": "conv2d_1/kernel",
+          "name": "sequential_1/conv2d_4/kernel",
           "shape": [
             3,
             3,
@@ -503,14 +503,14 @@
           "dtype": "float32"
         },
         {
-          "name": "conv2d_1/bias",
+          "name": "sequential_1/conv2d_4/bias",
           "shape": [
             64
           ],
           "dtype": "float32"
         },
         {
-          "name": "conv2d_2/kernel",
+          "name": "sequential_1/conv2d_5/kernel",
           "shape": [
             3,
             3,
@@ -520,14 +520,14 @@
           "dtype": "float32"
         },
         {
-          "name": "conv2d_2/bias",
+          "name": "sequential_1/conv2d_5/bias",
           "shape": [
             128
           ],
           "dtype": "float32"
         },
         {
-          "name": "dense/kernel",
+          "name": "sequential_1/dense_2/kernel",
           "shape": [
             1152,
             256
@@ -535,14 +535,14 @@
           "dtype": "float32"
         },
         {
-          "name": "dense/bias",
+          "name": "sequential_1/dense_2/bias",
           "shape": [
             256
           ],
           "dtype": "float32"
         },
         {
-          "name": "dense_1/kernel",
+          "name": "sequential_1/dense_3/kernel",
           "shape": [
             256,
             345
@@ -550,7 +550,7 @@
           "dtype": "float32"
         },
         {
-          "name": "dense_1/bias",
+          "name": "sequential_1/dense_3/bias",
           "shape": [
             345
           ],
